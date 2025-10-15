@@ -1,6 +1,7 @@
 fn main() {
-    println!("Hello, world");
+    let mut num:u8 = 255;
+    println!("The value stored in num is {}",num);
+    num = 100;
+    println!("The value stored in num is {}",num)
 }
 
-//snake_case: hello_rajshri -> rust follows
-//camelCase: helloRajshri
