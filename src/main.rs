@@ -13,13 +13,31 @@ fn main() {
 
 
     //Tuple
-    let emp_info:(&str, u8) = ("Raj", 26);
-    let emp_name:&str = emp_info.0;
-    let emp_age:u8 = emp_info.1;
-    println!("Name : {} and Age : {}",emp_name, emp_age);
-    //destructuring
-    let (employee_n, employee_a) = emp_info;
-    println!("Employee Name : {} and Employee Age : {}", employee_n, employee_a);
-    
+    // let emp_info:(&str, u8) = ("Raj", 26);
+    // let emp_name:&str = emp_info.0;
+    // let emp_age:u8 = emp_info.1;
+    // println!("Name : {} and Age : {}",emp_name, emp_age);
+    // //destructuring
+    // let (employee_n, employee_a) = emp_info;
+    // println!("Employee Name : {} and Employee Age : {}", employee_n, employee_a);
+
+
+    //functions
+    //1
+    // print_value(8);
+
+    //2
+    // let a:u8 = 2;
+    // let b:u8 = 6;
+    // let result:u8 = add(a, b);
+    // println!("Sum is : {}", result);
+
 }
 
+// fn print_value(num:u8){
+//     println!("Hello from Rajshri contributing to n{}n", num);
+// }
+
+// fn add(num1:u8, num2:u8)->u8{
+//     return num1 + num2;
+// }
